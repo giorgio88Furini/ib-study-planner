@@ -43,7 +43,7 @@ For example, from the project root:
 
 ```bash
 ib-study-planner plan examples/topics.csv \
-  --start-date 2026-05-01 --exam-date 2026-05-10 \
+  --start-date 2026-11-01 --exam-date 2026-11-10 \
   --minutes-per-day 45 --session-minutes 25 --output plan.md
 ```
 
@@ -51,7 +51,7 @@ JSON output is suitable for downstream tools:
 
 ```bash
 ib-study-planner plan examples/topics.csv \
-  --start-date 2026-05-01 --exam-date 2026-05-10 \
+  --start-date 2026-11-01 --exam-date 2026-11-10 \
   --minutes-per-day 45 --format json
 ```
 
